@@ -3,12 +3,6 @@ on:
   push:
     branches:
       - master
-  pull_request:
-    branches:
-      - master
-  release:
-    types:
-      - released
   workflow_dispatch:
 
 jobs:
